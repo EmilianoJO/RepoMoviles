@@ -21,7 +21,13 @@ class InfoLugar extends StatelessWidget {
                 size: 48,
                 color: Colors.indigo,
               ),
-              title: TextTop("Balis beach"),
+              title: Text(
+                "Balis beach",
+                style: TextStyle(
+                    fontFamily: 'Josefin',
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold),
+              ),
               subtitle: Wrap(
                 children: [
                   Icon(
