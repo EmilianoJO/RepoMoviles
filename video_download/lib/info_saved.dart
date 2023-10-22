@@ -1,7 +1,12 @@
-import 'package:isar/isar.dart';
+// import 'package:isar/isar.dart';
 
 class Progress {
-  float minutes;
+  int id = 0;
+  String minutes;
 
   Progress({required this.minutes});
+
+  Map<String, dynamic> toMap() {
+    return {'id': id, 'minutes': minutes};
+  }
 }
