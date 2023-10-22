@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:video_player/video_player.dart';
+import 'package:video_downlad/db.dart';
+import 'package:video_downlad/info_saved.dart';
 
 class MyVideoProvider with ChangeNotifier {
   VideoPlayerController? _vCont;
@@ -14,7 +16,9 @@ class MyVideoProvider with ChangeNotifier {
       ..addListener(() => notifyListeners())
       ..setLooping(false)
       ..initialize().then((value) async {
-        // TODO 7: cargar el progreso guardado del video
+        // 7: cargar el progreso guardado del video
+        await loadConfigs();
+        notifyListeners();
       });
   }
 
@@ -28,11 +32,23 @@ class MyVideoProvider with ChangeNotifier {
   }
 
   // TODO 6: cargar datos
-  Future<void> loadConfigs() async {}
+  Future<void> loadConfigs() async {
+    if (_vCont != null) {
+      String milisStr = await DB.progress();
+      int milis = int.parse(milisStr);
+      Duration position = Duration(milliseconds: milis);
+      await _vCont!.seekTo(position);
+      await _vCont!.setVolume(1);
+    }
+    notifyListeners();
+  }
 
   // TODO 10: guardar datos
   Future saveConfigs() async {
     try {
+      Duration position = _vCont!.value.position;
+      Progress progress = Progress(minutes: position.inMilliseconds.toString());
+      DB.update(progress);
       isSaved = true;
       notifyListeners();
     } catch (e) {
