@@ -1,16 +1,17 @@
-# video_downlad
+## video_download
+* Descargar videos al dispositivo
+* Hacer el display del video
+* Pedir permisos de almacenamiento
 
-A new Flutter project.
+## Lo que costo trabajo
+* Problemas con los permisos porque en web no aparecen
+* Instalar emulador
 
-## Getting Started
+## Lo que aprendiste
+* Utilizar Hive
+* Hacer los requests de permisos
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots APP
+![image](https://github.com/EmilianoJO/RepoMoviles/assets/115809049/ace23dd3-4062-4bd0-883f-b5a9964c5665)
+![image](https://github.com/EmilianoJO/RepoMoviles/assets/115809049/0739689f-ae47-464b-beb4-3480fa9f6253)
+![image](https://github.com/EmilianoJO/RepoMoviles/assets/115809049/432e7588-1f00-41e8-835c-a4a6b670e53f)
