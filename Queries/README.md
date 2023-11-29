@@ -1,36 +1,26 @@
-# Chat con Firebase
+## Firebase queries
+* Hacer actualizaciones a firestore desde la app
+* Obtener información de la base de datos
+* Pedir permisos de almacenamiento
+* Subir archivos de dispositvo a Storage
 
-**Listado de temas plasmados:**
-- Creación estructura de base de datos en firebase
-- Conexión a base de datos firebase
-- Creaión de queries GET, PUT, 4 queries en total
-- Widgets interactivos para interfaz de aplicación conectada
-- Manejo de errores con try catch
+## Lo que costo trabajo
+* Entender la estructura de los documentos de los chats
+* Hacer la conexión entre storage y firestore
 
-**Lo que más me costó trabajo**
-- Queries que necesitan acceso a una colección dentro de otra colección
-- Despliegue de información dependiendo del enviador de mensajes
-- 
+## Lo que aprendiste
+* A implementar FilePicker
+* Se pueden crear colecciones dentro de otras
 
-**Lo que aprendí**
-- [dart] Configuración de aplicación para conexión con base de datos
-- [firebase] Creación de estructura específica de base de datos
-- [dart] Queries a colecciones dentro de otra coleción en firebase
-- [dart] Actualización de documentos específicos dentro de base de datos
+## Screenshots APP
+<img width="252" alt="image" src="https://github.com/EmilianoJO/RepoMoviles/assets/115809049/263b5aa4-b68b-4dd9-b395-6b5f8253e325">
+<img width="252" alt="image" src="https://github.com/EmilianoJO/RepoMoviles/assets/115809049/6ed2b39e-7137-4054-a823-87d48002164c">
+<img width="250" alt="image" src="https://github.com/EmilianoJO/RepoMoviles/assets/115809049/855f65bd-f541-435a-83bf-c6e35631450f">
+<img width="249" alt="image" src="https://github.com/EmilianoJO/RepoMoviles/assets/115809049/518bda66-8933-4312-9a53-7907fac75505">
+<img width="251" alt="image" src="https://github.com/EmilianoJO/RepoMoviles/assets/115809049/d063b110-1c7f-4a74-bb3c-b65cc4a24b1a">
+# Estructura firebase
+![image](https://github.com/EmilianoJO/RepoMoviles/assets/115809049/ac62e553-2a90-42df-8e34-e6db7b883b6d)
 
-**Screenshots de la app**
-  - Botones de acción:
-  - <img width="112" alt="image" src="https://github.com/ChrisPereda0601/Dispositivos-moviles/assets/90405118/851cb0cd-3d8c-4f69-91f1-64113828c362">
-  
-  - Lista de chats:
-  - <img width="112" alt="image" src="https://github.com/ChrisPereda0601/Dispositivos-moviles/assets/90405118/1442c2f6-3f3a-421c-a216-d9c70cff877c">
-  
-  - Lista de mensajes dentro de chat:
-  - <img width="113" alt="image" src="https://github.com/ChrisPereda0601/Dispositivos-moviles/assets/90405118/585fc46a-91f2-4f9b-9ae2-830d5ce8aa17">
-  
-  - Estado de la base de datos luego de agregar nuevo chat:
-  - <img width="515" alt="image" src="https://github.com/ChrisPereda0601/Dispositivos-moviles/assets/90405118/878ce93c-862c-4d46-be39-ef136fef2a2a">
-  
-  - Estado de la base de datos luego de actualizar un chat:
-  - <img width="510" alt="image" src="https://github.com/ChrisPereda0601/Dispositivos-moviles/assets/90405118/79d751db-92a8-4126-bbf4-ae29c87e4f68">
+# Storage
+![image](https://github.com/EmilianoJO/RepoMoviles/assets/115809049/1d4726d8-1550-4040-9bd7-c19ca9b1d891)
 
