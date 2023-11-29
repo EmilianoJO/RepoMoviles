@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "120598379512",
+    "firebase_url": "https://glamourstore-19f97-default-rtdb.firebaseio.com",
+    "project_id": "glamourstore-19f97",
+    "storage_bucket": "glamourstore-19f97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120598379512:android:f805db5e34404715eb740d",
+        "android_client_info": {
+          "package_name": "com.example.chat_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sSrFg22hSrAt4Jk2xLnUWSK2addq-r4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120598379512-5ppad4ru0jgmavk0hqrtoag9031gad9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiendaOnline"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120598379512:android:8103b831a4582c3beb740d",
+        "android_client_info": {
+          "package_name": "com.example.fire_notes_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sSrFg22hSrAt4Jk2xLnUWSK2addq-r4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120598379512-5ppad4ru0jgmavk0hqrtoag9031gad9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiendaOnline"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120598379512:android:bcc758788bc59ca5eb740d",
+        "android_client_info": {
+          "package_name": "com.example.fs_tweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120598379512-qbhf2ou2k4qs36j8cqbk1em9mj2r54f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fs_tweet",
+            "certificate_hash": "1258c9b78f37ed535c1594e07c8646429b81bb87"
+          }
+        },
+        {
+          "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sSrFg22hSrAt4Jk2xLnUWSK2addq-r4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120598379512-5ppad4ru0jgmavk0hqrtoag9031gad9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiendaOnline"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120598379512:android:b506616e66b573a4eb740d",
+        "android_client_info": {
+          "package_name": "com.example.tienda_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sSrFg22hSrAt4Jk2xLnUWSK2addq-r4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120598379512-vru1c4dvturp46afk3p1h4h83f33av2j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120598379512-5ppad4ru0jgmavk0hqrtoag9031gad9m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiendaOnline"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
